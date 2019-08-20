@@ -1,0 +1,7 @@
+<% @books.each do |book| %>
+  <p>
+    <div>タイトル名： <%= book.title%></div>
+    <div>価格： <%= book.price%> 円</div>
+    <div>概要： <%= book.summary%></div>
+  </p>
+<%end%>
